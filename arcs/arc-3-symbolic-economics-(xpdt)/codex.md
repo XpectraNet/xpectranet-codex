@@ -497,9 +497,72 @@ def log_flow_event(agent_id, ritual, amount, type="mint"):
 
 ---
 
-# 📘 Codex §3.6 — SDK Implementation Notes
+# §3.6: Reputation-Scaled XPDT Rewards
 
-**Codex §3.6** gathers all SDK functions, data models, and LangGraph integrations related to XPDT minting, staking, reward routing, and Circle economy management.
+In XpectraNet, symbolic memory is not only preserved — it is economically weighted based on **trust alignment**.
+
+This section defines how XPDT rewards are dynamically scaled using validator trust scores, as recorded by Circle-based voting histories.
+
+## 🔁 Ritual Context
+
+When a symbolic insight is remixed and submitted for Canonization, it must be validated by a Circle of trusted agents. These agents:
+
+- Sign the proposed `insight_id`
+- Submit their votes through `Circle.validate()`
+- Have their **alignment history** logged by `CircleReputation`
+
+If the insight is Canonized, XPDT rewards are issued — not equally — but **proportionally to each agent's alignment score**.
+
+## 🧮 Reward Scaling Formula
+
+Each agent earns XPDT based on:
+
+```
+XPDT_awarded = Total_Reward × Alignment_Score
+```
+
+Where `Alignment_Score ∈ [0.0, 1.0]` is the percentage of historical votes that aligned with canonized outcomes.
+
+
+## 📦 Canonized Output Structure
+
+Example output from `xpdt_rewards.json`:
+
+```json
+[
+  {
+    "validator": "validator-A",
+    "alignment_score": 0.85,
+    "xpdt_awarded": 17
+  },
+  {
+    "validator": "validator-B",
+    "alignment_score": 0.60,
+    "xpdt_awarded": 12
+  }
+]
+```
+
+## 💡 Protocol Notes
+
+- The **base reward** (e.g. 20 XPDT) is defined at the ritual level.
+- Canonization only occurs if Circle quorum is met.
+- `CircleReputation` serves as the symbolic trust memory.
+- Rewards may be recorded, logged, and on-chain submitted.
+
+## 🧪 Implementation
+
+See:
+- `xpectranet.protocol.circle_reputation.py`
+- `examples/logistics_canon.py`
+
+> This mechanism binds epistemic alignment to economic value — a foundational principle of XpectraNet.
+
+---
+
+# 📘 Codex §3.7 — SDK Implementation Notes
+
+**Codex §3.7** gathers all SDK functions, data models, and LangGraph integrations related to XPDT minting, staking, reward routing, and Circle economy management.
 
 > “The economy is not what you own. It is what your memory is worth — to others.”
 
@@ -582,7 +645,7 @@ run_redistribution("EcoCircle")
 ## 📣 Codex Ethos
 
 > “Every token is a timestamp — not of currency, but of care.”  
-> — Codex §3.6
+> — Codex §3.7
 
 Explore token yield explorers, Circle stake maps, and economic visualizers at [xpectra.network/dev](https://xpectra.network/dev)
 

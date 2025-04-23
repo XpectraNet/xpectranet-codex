@@ -9,7 +9,7 @@ Each Arc represents a distinct layer of the protocol, encompassing both theoreti
 1. [Arc 0: Protocol Ontology & Symbolic Foundations](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-0-protocol-ontology-and-symbolic-foundations)
 2. [Arc 1: Memory, Trust & Alignment](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-1-memory-trust-and-alignment)
 3. [Arc 2: Ritual Infrastructure](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-2-ritual-infrastructure)
-4. [Arc 3: Symbolic Economics (XPDT)](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-3-symbolic-economics-xpdt)
+4. [Arc 3: Symbolic Economics (XPDT)](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-3-symbolic-economics-(xpdt))
 5. [Arc 4: Mesh Operations](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-4-mesh-operations)
 6. [Arc 5: Mesh Cognition](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-5-mesh-cognition)
 7. [Arc 6: Horizon Layer](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-6-horizon-layer)

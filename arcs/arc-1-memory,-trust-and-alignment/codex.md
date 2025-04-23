@@ -6,7 +6,7 @@
 > “In XpectraNet, memory is not storage — it is sovereignty. And trust is not given — it is aligned, drifted, repaired, and remembered.”  
 > — *Codex Arc 1*
 
-## 🧾 Executive Summary — Arc 1: Memory, Trust & Alignment
+## 🧾 Executive Summary
 
 **Arc 1** establishes the symbolic logic of memory authorship, trust formation, and alignment enforcement in the XpectraNet protocol. It introduces the core agent architecture and protocol rituals that govern how memory becomes credible — and how alignment is maintained across time.
 

@@ -13,7 +13,7 @@ Each Arc represents a distinct layer of the protocol, encompassing both theoreti
 5. [Arc 4: Mesh Operations](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-4-mesh-operations)
 6. [Arc 5: Mesh Cognition](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-5-mesh-cognition)
 7. [Arc 6: Horizon Layer](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-6-horizon-layer)
-8. [Arc 7: Silence, Archive & Cognitive Closure](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-7-silence-archive-and-cognitive-closure)
+8. [Arc 7: Silence, Archive & Cognitive Closure](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-7-silence%2C-archive-and-cognitive-closure)
 9. [Arc 8: Mythic Layer](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-8-mythic-layer)
 10. [Arc 9: Symbolic Time & Ritual Clocks](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-9-symbolic-time-and-ritual-clocks)
 11. [Arc X: Future Extensions](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-x-future-extensions)

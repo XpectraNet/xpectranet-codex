@@ -1,4 +1,4 @@
-# 🧠 Arc 0 — Protocol Ontology & Symbolic Foundations
+# 🧠 Codex Arc 0 — Protocol Ontology & Symbolic Foundations
 
 > “Before memory can be stored, it must be understood.”
 
@@ -16,7 +16,7 @@ Arc 0 introduces the **symbolic substrate** upon which XpectraNet operates. At i
 
 This Arc serves as the **epistemic genesis** of the protocol: the point where memory becomes symbolic, agents gain legibility, and forks are semantically traceable.
 
-## 📘 Section §0.1 — Ontology as Protocol
+## 📘 Codex §0.1 — Ontology as Protocol
 
 Rather than treat ontology as metadata, XpectraNet embeds it **at the protocol layer**. Every memory, fork, or ritual is typed against shared RDF schema definitions.
 
@@ -25,7 +25,7 @@ Rather than treat ontology as metadata, XpectraNet embeds it **at the protocol l
 - Forks must carry **semantic lineage**, not only hashes.
 - Canonization must occur on **aligned conceptual grounds**.
 
-## 🔗 Section §0.2 — The XKO Namespace
+## 🔗 Codex §0.2 — The XKO Namespace
 
 The canonical ontology is published at:
 
@@ -43,7 +43,7 @@ It defines:
 | `xko:isCanonical` | A tag applied during ritual canonization |
 | `xko:remixOf` | Semantic pointer to memory origin |
 
-## 🧠 Section §0.3 — Memory as Symbolic Act
+## 🧠 Codex §0.3 — Memory as Symbolic Act
 
 Example of symbolic memory (Turtle/RDF):
 
@@ -61,7 +61,7 @@ This turns memory into:
 - A **fork-aware, emotion-encoded cognitive trail**
 - A unit of **declarative, distributed trust**
 
-## ⚖️ Section §0.4 — Symbolic Sovereignty
+## ⚖️ Codex §0.4 — Symbolic Sovereignty
 
 Meshes are not interoperable by default. Each one must declare either:
 
@@ -73,7 +73,7 @@ This allows:
 - Symbolic diplomacy
 - Fork-aware permissionless interop
 
-## 🔍 Section §0.5 — Semantic Compatibility Enforcement
+## 🔍 Codex §0.5 — Semantic Compatibility Enforcement
 
 SDK validators must ensure:
 - Each CMB conforms to RDF classes (e.g., `xko:Insight`)  
@@ -84,7 +84,7 @@ Planned modules:
 - `semantic_validator.py`  
 - `ontology_diff.py`
 
-## 🌀 Section §0.6 — Symbolic Continuity Across Forks
+## 🌀 Codex §0.6 — Symbolic Continuity Across Forks
 
 When a memory fork occurs, agents preserve semantic intent via:
 
@@ -101,7 +101,7 @@ When a memory fork occurs, agents preserve semantic intent via:
 
 Forks aren't just structure — they're **meaningful stories** across time.
 
-## 🔗 Section §0.7 — RDF/OWL Integration
+## 🔗 Codex §0.7 — RDF/OWL Integration
 
 XpectraNet supports full RDF reasoning:
 - SPARQL queries on memory trails  

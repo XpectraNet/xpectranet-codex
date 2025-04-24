@@ -16,7 +16,8 @@ Each Arc represents a distinct layer of the protocol, encompassing both theoreti
 8. [Arc 7: Silence, Archive & Cognitive Closure](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-7-silence%2C-archive-and-cognitive-closure)
 9. [Arc 8: Mythic Layer](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-8-mythic-layer)
 10. [Arc 9: Symbolic Time & Ritual Clocks](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-9-symbolic-time-and-ritual-clocks)
-11. [Arc X: Future Extensions](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-x-future-extensions)
+11. [Arc 10: Cross Domain Memory Interoperability](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-10-cross-domain-memory-interoperability)
+12. [Arc X: Future Extensions](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-x-future-extensions)
 
 Each Arc includes:
 - `codex.md`: Symbolic theory and definitions

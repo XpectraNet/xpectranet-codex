@@ -7,7 +7,7 @@ Welcome to the **XpectraNet Codex** — the foundational documentation of the Xp
 Each Arc represents a distinct layer of the protocol, encompassing both theoretical underpinnings and practical implementations.
 
 1. [Arc 0: Protocol Ontology & Symbolic Foundations](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-0-protocol-ontology-and-symbolic-foundations)
-2. [Arc 1: Memory, Trust & Alignment](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-1-memory-trust-and-alignment)
+2. [Arc 1: Memory, Trust & Alignment](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-1-memory%2C-trust-and-alignment)
 3. [Arc 2: Ritual Infrastructure](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-2-ritual-infrastructure)
 4. [Arc 3: Symbolic Economics (XPDT)](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-3-symbolic-economics-(xpdt))
 5. [Arc 4: Mesh Operations](https://github.com/XpectraNet/xpectranet-codex/tree/main/arcs/arc-4-mesh-operations)
